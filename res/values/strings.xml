@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Шайба.kz</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="no_connection_title">Ошибка</string>
+    <string name="no_connection_text">Проверьте подключение к интернету</string>
+    <string name="retrieve_feed">Загрузка новостей</string>
+    <string name="no_news">Не удалось загрузить новости</string>
+    <string name="retrieve_post">Загрузка новости</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

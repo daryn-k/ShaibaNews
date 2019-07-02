@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:id="@+id/club_page_bg"
+            android:src="@drawable/barys_bg"
+            android:layout_toRightOf="@+id/club_page_logo"
+            android:layout_gravity="right"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:id="@+id/club_page_logo"
+            android:src="@drawable/barys"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Торпедо"
+                android:id="@+id/club_page_name"
+                android:textSize="36dp"
+                android:textStyle="bold"
+                android:textColor="#0083ca"
+                android:shadowColor="#d5d5d5"
+                android:shadowDx="-2"
+                android:shadowDy="2"
+                android:shadowRadius="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Усть-Каменогорск"
+                android:id="@+id/club_page_city"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                android:shadowColor="#d5d5d5"
+                android:shadowDx="-2"
+                android:shadowDy="2"
+                android:shadowRadius="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Год основания"
+                    android:layout_alignParentStart="true"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/club_page_founded"
+                    android:text="1955"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/club_page_farmof_item"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Первая команда"
+                    android:layout_alignParentStart="true"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/club_page_farmof"
+                    android:text="Барыс"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Арена"
+                    android:layout_alignParentStart="true"
+                    android:textSize="16dp"
+                    android:minWidth="120dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/club_page_arena"
+                    android:text="Ледовый дворец Казахстан"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Лига"
+                    android:layout_alignParentStart="true"
+                    android:textSize="16dp"
+                    android:minWidth="120dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/club_page_league"
+                    android:text="Чемпионат Казахстана"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#0CC0E8</item>
+        <item name="colorPrimaryDark">#008FCC</item>
+        <item name="colorAccent">#065B80</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_color</item>
+    </style>
+
+    <style name="NewsDate">
+        <item name="android:textColor">#9b9b9b</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="switchStyle">
+        <item name="colorControlActivated">#00a7f4</item>
+        <item name="android:colorForeground">#959595</item>
+    </style>
+
+</resources>
